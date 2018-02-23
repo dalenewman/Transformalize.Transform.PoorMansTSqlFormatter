@@ -5,7 +5,7 @@ using Cfg.Net.Shorthand;
 using Transformalize.Contracts;
 
 namespace Transformalize.Transforms.PoorMansTSqlFormatter.Autofac {
-    public class TransformModule : Module {
+    public class SqlFormatModule : Module {
 
         private HashSet<string> _methods;
         private ShorthandRoot _shortHand;

@@ -19,7 +19,6 @@ namespace Transformalize.Transforms.PoorMansTSqlFormatter {
         public override IRow Operate(IRow row) {
             var unformatted = GetString(row, _input);
             row[Context.Field] = _formattingManager.Format(unformatted);
-            Increment();
             return row;
         }
 
