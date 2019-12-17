@@ -1,4 +1,4 @@
-This adds a `formatsql` method to Transformalize using [Poor Man's T-SQL Formatter](https://github.com/TaoK/PoorMansTSqlFormatter).  It is a plug-in compatible with Transformalize 0.3.4-beta.
+This adds a `formatsql` method to Transformalize using [Poor Man's T-SQL Formatter](https://github.com/TaoK/PoorMansTSqlFormatter).  It is a plug-in for Transformalize.
 
 Build the Autofac project and put it's output into Transformalize's *plugins* folder.
 

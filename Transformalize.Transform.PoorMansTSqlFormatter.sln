@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27130.2036
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29609.76
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Transformalize.Transform.PoorMansTSqlFormatter", "src\Transformalize.Transform.PoorMansTSqlFormatter\Transformalize.Transform.PoorMansTSqlFormatter.csproj", "{4ED1E259-756A-40B8-9800-F563B59E0206}"
 EndProject
@@ -19,8 +19,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "nuget", "nuget", "{8CEAE80A
 		nuget\Transformalize.Transform.PoorMansTSqlFormatter.nuspec = nuget\Transformalize.Transform.PoorMansTSqlFormatter.nuspec
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BootStrapper", "src\BootStrapper\BootStrapper.csproj", "{4D7ACEA9-6E0A-4174-9551-894B0124357A}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,10 +33,6 @@ Global
 		{CD3477B9-14E5-4EA3-90B0-CA9299BCAE73}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CD3477B9-14E5-4EA3-90B0-CA9299BCAE73}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CD3477B9-14E5-4EA3-90B0-CA9299BCAE73}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4D7ACEA9-6E0A-4174-9551-894B0124357A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4D7ACEA9-6E0A-4174-9551-894B0124357A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4D7ACEA9-6E0A-4174-9551-894B0124357A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4D7ACEA9-6E0A-4174-9551-894B0124357A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
